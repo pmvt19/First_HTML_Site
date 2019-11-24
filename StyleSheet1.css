@@ -1,0 +1,18 @@
+﻿.vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+.vertical li{
+    float:none;
+
+}
+
+
+.vertical a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}

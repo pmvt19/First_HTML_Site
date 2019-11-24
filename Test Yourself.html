@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Car Exam</title>
+
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+        p {
+            color: black;
+            font-weight: bold;
+        }
+        p.text{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media screen and (max-width:900px) {
+
+               body{
+            background-color: lightblue;
+            
+        }
+
+
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <p>1. What are the three main parts of a torque converter?</p>
+    <form class="questionForm" id="radio" data-question="1">
+        <input type="radio" name="radio" id="a1" value="a1">Clutch Pack, Drive selctor, Clutch
+        <br>
+        <input type="radio" name="radio" id="a2" value="a2">Drive Shaft, Differential, Throwout Bearing
+        <br>
+        <input type="radio" name="radio" id="a3" value="a3">Impeller, Turbine, Clutch Pack
+        <br>
+        <input type="radio" name="radio" id="a4" value="a4">Clutch, Transmission Fluid, Impeller
+        <br />
+        <input type="button" onclick="fsubmit()" value="Submit!">
+    </form>
+       <script type="text/javascript">
+            function fsubmit() {
+                var correctanswer = document.getElementById("a3")
+                if (correctanswer.checked) {
+                    alert("Correct")
+                }
+                else {
+                    alert("Incorrect")
+                }
+            }
+
+        </script>
+
+        <p>2. What are 3 benefits of an automatic transmission?</p>
+        <form class="questionForm" id="radio1" data-question="2">
+            <input type="radio" name="radio1" id="b1" value="b1">No Maintenance, Smooth, Shifts
+            <br>
+            <input type="radio" name="radio1" id="b2" value="b2">Manual Shifts, 2 Clutchs, Smooth
+            <br>
+            <input type="radio" name="radio1" id="b3" value="b3">Fast, Agressive, Cheap
+            <br>
+            <input type="radio" name="radio1" id="b4" value="b4">Cheap, Smooth, Maintenance
+            <br />
+            <input type="button" onclick="esubmit()" value="Submit!">
+        </form>
+        <script type="text/javascript">
+            function esubmit() {
+                var correctanswer = document.getElementById("b1")
+                if (correctanswer.checked) {
+                    alert("Correct")
+                }
+                else {
+                    alert("Incorrect")
+                }
+            }
+
+        </script>
+        <p><a href="Answers.html">Answers.html</a></p>  
+
+</body>
+        </html>
+
+

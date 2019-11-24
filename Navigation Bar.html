@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar</title>    
+    <style>
+
+        ::selection {
+               color: white;
+               background: #8AC007;
+            }
+            body{ 
+                background-color: gray; 
+                padding-top: 15px;
+                padding-left: 0px;         
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:#8AC007;                                    
+            }
+
+            li {
+                float: left;
+            }
+
+            a {
+                display: block;
+                width: 100px;
+                background-color: #8AC007;
+                color: #ffffff;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                height: 20px;
+                //border-color: #8AC007;
+            
+            }
+
+            a {
+                font-weight: bold;          
+                text-transform: none;
+                padding-top: 4px;
+                padding-bottom: 0px ;   
+                                        
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            a:hover {                
+                background-color: #7A991A; 
+                display: block; 
+                border-color: #8AC007;                                                           
+            }
+
+            .arrow {
+                font-size: 11px;
+            }
+
+            li.nano a {
+                /border-radius: 5px 0px 0px 5px
+            }
+
+            li.shuffle a {
+                /border-radius: 0px 5px 5px 0px
+            }
+
+            ul li:hover ul{
+                display: block;
+            }
+
+            ul ul{
+                position: absolute;
+                display: none;
+                -webkit-transition: all .25s;
+                                                             
+            }
+
+            ul ul li{
+                display:block;
+                float: none; 
+                -webkit-transition: all .25s;
+                                                           
+            }
+
+            ul ul li a{               
+                text-align: center;                              
+            }
+
+            
+    </style>
+</head>
+<body>
+
+    
+        
+
+            <ul>
+                <li class="nano"><a href="Page1.html">Home</a></li>
+                <li><a href="Page2.html">Phones<span class="arrow">&#9660;</span></a>
+                    <ul>
+                        <li><a href="Samsung.html">Samsung</a></li>
+                        <li><a href="LG Phones.html">LG</a></li>
+                        <li><a href="#">Motorola</a></li>
+                        <li><a href="#">Oneplus</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="shuffle"><a href="#about">About</a></li>
+            </ul>
+    
+    
+    <p><b>Note:</b> If a !DOCTYPE is not specified, floating items can produce unexpected results.</p>
+    <p>A background color is added to the links to show the link area. The whole link area is clickable, not just the text.</p>
+    <p><b>Note:</b> overflow:hidden is added to the ul element to prevent li elements from going outside of the list.</p>
+
+</body>
+</html>

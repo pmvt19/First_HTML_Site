@@ -1,0 +1,23 @@
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Test Project.dll
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Test Project.pdb
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Test Project.xml
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\obj\Debug\Test_Project.Resources.resources
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\obj\Debug\Test Project.vbproj.GenerateResource.Cache
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\obj\Debug\Test Project.dll
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\obj\Debug\Test Project.xml
+c:\users\jay\documents\visual studio 2013\Projects\Test Project\Test Project\obj\Debug\Test Project.pdb
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Owin.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Owin.Security.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Newtonsoft.Json.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Owin.dll
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Owin.xml
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Microsoft.Owin.Security.xml
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\bin\Newtonsoft.Json.xml
+C:\Users\Jay\documents\visual studio 2013\Projects\Test Project\Test Project\obj\Debug\Test Project.vbprojResolveAssemblyReference.cache
